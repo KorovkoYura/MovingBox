@@ -1,0 +1,64 @@
+body{
+	margin:0;
+  	color:#000;
+	font:11px Arial,sans-serif;
+	background:#DCDCDC;
+}
+img{border:none;}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{text-decoration:underline;}
+input, textarea, select{
+	font:100% Arial,sans-serif;
+	vertical-align:middle;
+}
+form,fieldset{
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+p{
+	margin:0;
+	padding:10px 0;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#main{
+	width:1000px;
+	margin:0 auto;
+}
+
+.box-holder{
+	position:relative;
+	width:700px;
+	height:500px;
+	border:5px solid #000;
+	margin:100px auto;
+}
+.box-holder .box{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:0;
+	left:0;
+	text-indent:-6666px;
+	overflow:hidden;
+	background: url(../images/top.gif);
+}
+.box-holder .enemy{
+	width:26px;
+	height:26px;
+	position:absolute;
+	top:0;
+	left:0;
+	text-indent:-6666px;
+	overflow:hidden;
+	background:green;
+}
